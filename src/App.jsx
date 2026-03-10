@@ -56,19 +56,19 @@ function GlassCard({ children, style = {}, hover = true, fixedHeight = null }) {
 }
 
 const verticals = [
-  { icon: "🎵", name: "Music & Entertainment", desc: "Labels, festivals, artists, nightlife" },
-  { icon: "⚡", name: "Tech & SaaS", desc: "Startups, platforms, dev tools" },
-  { icon: "🍽️", name: "Food & Beverage", desc: "Restaurants, CPG, hospitality" },
-  { icon: "➘�, name: "Lifestyle & Luxury", desc: "Fashion, travel, wellness" },
+  { icon: "ðŸŽµ", name: "Music & Entertainment", desc: "Labels, festivals, artists, nightlife" },
+  { icon: "âš¡", name: "Tech & SaaS", desc: "Startups, platforms, dev tools" },
+  { icon: "ðŸ½ï¸", name: "Food & Beverage", desc: "Restaurants, CPG, hospitality" },
+  { icon: "âž˜¢, name: "Lifestyle & Luxury", desc: "Fashion, travel, wellness" },
 ];
 
 const services = [
-  { icon: "📱", title: "UGC & Short-Form", desc: "Scroll-stopping content optimized for Reels, TikTok, and Shorts." },
-  { icon: "🎥", title: "Mini Docu-Series", desc: "High-production storytelling — profiles, deep-dives, behind-the-scenes." },
-  { icon: "🔥", title: "Meme & Viral Content", desc: "Opinion-driven posts engineered for shares and saves." },
-  { icon: "📰", title: "Carousel & Editorial", desc: "Swipeable news, insights, and educational content." },
-  { icon: "🤝", title: "Influencer Collabs", desc: "End-to-end creator partnerships for cross-audience growth." },
-  { icon: "📊", title: "Strategy & Growth", desc: "Audience analysis, trend detection, and distribution at scale." },
+  { icon: "ðŸ“±", title: "UGC & Short-Form", desc: "Scroll-stopping content optimized for Reels, TikTok, and Shorts." },
+  { icon: "ðŸŽ¥", title: "Mini Docu-Series", desc: "High-production storytelling â€” profiles, deep-dives, behind-the-scenes." },
+  { icon: "ðŸ”¥", title: "Meme & Viral Content", desc: "Opinion-driven posts engineered for shares and saves." },
+  { icon: "ðŸ“°", title: "Carousel & Editorial", desc: "Swipeable news, insights, and educational content." },
+  { icon: "ðŸ¤", title: "Influencer Collabs", desc: "End-to-end creator partnerships for cross-audience growth." },
+  { icon: "ðŸ“Š", title: "Strategy & Growth", desc: "Audience analysis, trend detection, and distribution at scale." },
 ];
 
 const steps = [
@@ -138,7 +138,7 @@ export default function KMCLanding() {
         >Get in Touch</a>
       </nav>
 
-      {/* ═══ HERO ═══ */}
+      {/* â•â•â• HERO â•â•â• */}
       <section style={{
         minHeight: "100vh", display: "flex", flexDirection: "column",
         justifyContent: "center", alignItems: "center",
@@ -184,7 +184,7 @@ export default function KMCLanding() {
             fontSize: "clamp(1.05rem, 2vw, 1.3rem)", color: GRAY,
             maxWidth: 520, margin: "0 auto 3rem", lineHeight: 1.65, fontWeight: 400,
           }}>
-            Full-service social media agency. Strategy, content, distribution — we handle it all so you can focus on building.
+            Full-service social media agency. Strategy, content, distribution â€” we handle it all so you can focus on building.
           </p>
 
           <a href="mailto:albert@dontechno.com" style={{
@@ -214,7 +214,7 @@ export default function KMCLanding() {
         </div>
       </section>
 
-      {/* ═══ VERTICALS ═══ */}
+      {/* â•â•â• VERTICALS â•â•â• */}
       <section style={{ padding: "6rem 2rem", position: "relative", zIndex: 1 }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <Reveal>
@@ -237,7 +237,7 @@ export default function KMCLanding() {
         </div>
       </section>
 
-      {/* ═══ SERVICES ═══ */}
+      {/* â•â•â• SERVICES â•â•â• */}
       <section style={{ padding: "6rem 2rem", position: "relative", zIndex: 1 }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <Reveal>
@@ -246,7 +246,7 @@ export default function KMCLanding() {
               Content that converts
             </h2>
             <p style={{ color: GRAY, fontSize: "1.05rem", marginBottom: "3rem", maxWidth: 550, lineHeight: 1.6 }}>
-              From UGC to docu-series to meme-style virality — we create and distribute every format that moves the needle.
+              From UGC to docu-series to meme-style virality â€” we create and distribute every format that moves the needle.
             </p>
           </Reveal>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1rem" }}>
@@ -264,7 +264,7 @@ export default function KMCLanding() {
         </div>
       </section>
 
-      {/* ═══ HOW WE WORK ═══ */}
+      {/* â•â•â• HOW WE WORK â•â•â• */}
       <section style={{ padding: "6rem 2rem", position: "relative", zIndex: 1 }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <Reveal>
@@ -297,7 +297,7 @@ export default function KMCLanding() {
         </div>
       </section>
 
-      {/* ═══ RESULTS ═══ */}
+      {/* â•â•â• RESULTS â•â•â• */}
       <section style={{ padding: "6rem 2rem", position: "relative", zIndex: 1 }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <Reveal>
@@ -325,7 +325,7 @@ export default function KMCLanding() {
         </div>
       </section>
 
-      {/* ═══ CTA ═══ */}
+      {/* â•â•â• CTA â•â•â• */}
       <section style={{ padding: "6rem 2rem", position: "relative", zIndex: 1 }}>
         <Reveal>
           <div style={{
